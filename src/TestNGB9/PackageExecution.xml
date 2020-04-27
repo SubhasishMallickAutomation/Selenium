@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="TestNGPACKAGEexecution"  verbose="1">
+	  
+	  <test name="AllClassesFromPackage" preserve-order="true" >
+		
+	    <packages>
+      		<package name="basic" />
+      		<package name="advanced" />
+      	</packages>
+       
+	  </test>
+  
+</suite>
